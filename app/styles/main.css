@@ -1,0 +1,12 @@
+.discussion-item {
+  display: none;
+}
+
+.timeline-comment-wrapper.js-discussion-active + .discussion-item,
+.timeline-comment-wrapper.js-discussion-active ~ .discussion-item + .discussion-item {
+  display: block;
+}
+
+.toggle-details {
+  margin-top: 10px;
+}
