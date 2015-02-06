@@ -7,7 +7,7 @@
 	<key>Builder Version</key>
 	<string>10600.3.18</string>
 	<key>CFBundleDisplayName</key>
-	<string>Github Enhancement Suite</string>
+	<string>Github enhancement suite</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.awkward.github-enhancement-suite</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -15,7 +15,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>0.1</string>
 	<key>CFBundleVersion</key>
-	<string>5</string>
+	<string>6</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -29,7 +29,7 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>Extend github functionality</string>
+	<string>Github enhance plugin for Safari</string>
 	<key>DeveloperIdentifier</key>
 	<string>7CTLDUN43R</string>
 	<key>ExtensionInfoDictionaryVersion</key>
