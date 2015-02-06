@@ -41,7 +41,7 @@ function showDicussionElements(event) {
 }
 
 function githubElementClasses() {
-	var elements = ['discussion-item-labeled','discussion-item-unlabeled','discussion-item-milestoned','discussion-item-unmilestoned','discussion-item-demilestoned','discussion-item-assigned','discussion-item-assigned','discussion-item-renamed'];
+	var elements = ['discussion-item-labeled','discussion-item-unlabeled','discussion-item-milestoned','discussion-item-unmilestoned','discussion-item-demilestoned','discussion-item-assigned','discussion-item-unassigned','discussion-item-renamed'];
 	return elements
 }
 
