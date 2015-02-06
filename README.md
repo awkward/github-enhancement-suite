@@ -10,5 +10,5 @@ Github enhance plugin for Google Chrome and Safari
 
 # Download
 
-[Latest release Chrome](https://github.com/awkward/github-enhancement-suite/releases/download/v0.1/Chrome.zip)
-[Latest release Safari](https://github.com/awkward/github-enhancement-suite/releases/download/v0.1/Safari.zip)
+- [Latest release Chrome](https://github.com/awkward/github-enhancement-suite/releases/download/v0.1/Chrome.zip)
+- [Latest release Safari](https://github.com/awkward/github-enhancement-suite/releases/download/v0.1/Safari.zip)
