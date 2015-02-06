@@ -8,3 +8,7 @@ dist
 Chrome/app/bower_components
 Chrome/test/bower_components
 package
+
+Chrome/app.crx
+
+Chrome/app.pem
