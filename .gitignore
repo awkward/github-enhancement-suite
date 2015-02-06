@@ -1,8 +1,10 @@
-node_modules
+Chrome/node_modules
 temp
 .tmp
+.log
+*.log
 dist
 .sass-cache
-app/bower_components
-test/bower_components
+Chrome/app/bower_components
+Chrome/test/bower_components
 package
