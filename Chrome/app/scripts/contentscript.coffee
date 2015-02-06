@@ -12,5 +12,3 @@ $comments.each (index, comment) ->
     $button.on 'click', (e) -> $comment.toggleClass('js-discussion-active')
 
     $comment.append $button
-
-console.log('\'Allo \'Allo! Content script')
