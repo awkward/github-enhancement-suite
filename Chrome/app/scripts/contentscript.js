@@ -6,7 +6,7 @@
     var $comments, $oldButtons, $toggleButton;
     $oldButtons = $('.toggle-details');
     $oldButtons.remove();
-    $toggleButton = $('<button class="minibutton toggle-details">toggle details</button>');
+    $toggleButton = $('<button class="minibutton toggle-details">Toggle details</button>');
     $comments = $('.js-comment-container');
     return $comments.each(function(index, comment) {
       var $button, $comment;
