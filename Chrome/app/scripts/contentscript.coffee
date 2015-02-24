@@ -7,7 +7,7 @@ addToggleButtons = ->
   $oldButtons = $('.toggle-details')
   $oldButtons.remove()
 
-  $toggleButton = $('<button class="minibutton toggle-details">toggle details</button>')
+  $toggleButton = $('<button class="minibutton toggle-details">Toggle details</button>')
   $comments = $('.js-comment-container');
 
   $comments.each (index, comment) ->
