@@ -1,12 +1,11 @@
 (function() {
-  'use strict';
   var addToggleButtons, callback, createObserverAndObserve, observer, target;
 
   addToggleButtons = function() {
     var $comments, $oldButtons, $toggleButton;
     $oldButtons = $('.toggle-details');
     $oldButtons.remove();
-    $toggleButton = $('<button class="minibutton toggle-details">toggle details</button>');
+    $toggleButton = $('<button class="minibutton toggle-details">Show details</button>');
     $comments = $('.js-comment-container');
     return $comments.each(function(index, comment) {
       var $button, $comment;
@@ -14,7 +13,12 @@
       if ($comment.next().hasClass('discussion-item')) {
         $button = $toggleButton.clone();
         $button.on('click', function(e) {
-          return $comment.toggleClass('js-discussion-active');
+          $comment.toggleClass('js-discussion-active');
+          if ($comment.hasClass('js-discussion-active')) {
+            return $(e.target).text('Hide details');
+          } else {
+            return $(e.target).text('Show details');
+          }
         });
         return $comment.append($button);
       }

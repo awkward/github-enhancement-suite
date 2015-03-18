@@ -1,5 +1,3 @@
-'use strict';
-
 addToggleButtons = ->
 
   # clear old buttons, maybe also do this via the observer
@@ -7,14 +5,21 @@ addToggleButtons = ->
   $oldButtons = $('.toggle-details')
   $oldButtons.remove()
 
-  $toggleButton = $('<button class="minibutton toggle-details">toggle details</button>')
+  $toggleButton = $('<button class="minibutton toggle-details">Show details</button>')
   $comments = $('.js-comment-container');
 
   $comments.each (index, comment) ->
     $comment = $(comment)
     if $comment.next().hasClass('discussion-item')
       $button = $toggleButton.clone()
-      $button.on 'click', (e) -> $comment.toggleClass('js-discussion-active')
+      $button.on 'click', (e) ->
+        $comment.toggleClass('js-discussion-active')
+
+        if $comment.hasClass('js-discussion-active')
+          $(e.target).text('Hide details')
+        else
+          $(e.target).text('Show details')
+
       $comment.append $button
 
 addToggleButtons()

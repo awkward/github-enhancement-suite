@@ -10,19 +10,9 @@
     "default_locale": "en",
     "background": {
         "scripts": [
-            "scripts/chromereload.js",
-            "scripts/background.js"
+            "scripts/chromereload.js"
         ]
     },
-    "page_action": {
-        "default_icon": {
-            "19": "images/icon-19.png",
-            "38": "images/icon-38.png"
-        },
-        "default_title": "github extension",
-        "default_popup": "popup.html"
-    },
-    "options_page": "options.html",
     "omnibox": {
         "keyword": "github extension"
     },
