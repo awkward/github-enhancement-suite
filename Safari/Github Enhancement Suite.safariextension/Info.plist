@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Rens</string>
 	<key>Builder Version</key>
-	<string>10600.3.18</string>
+	<string>10600.4.10.7</string>
 	<key>CFBundleDisplayName</key>
 	<string>Github enhancement suite</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.1</string>
+	<string>0.1.2</string>
 	<key>CFBundleVersion</key>
 	<string>6</string>
 	<key>Chrome</key>
