@@ -9,7 +9,7 @@ function addButton(event) {
 		var button = document.createElement("button");
 		button.onclick = showDicussionElements;
 		button.innerHTML = "Show details";
-		button.className = "minibutton toggle-details";
+		button.className = "btn btn-sm toggle-details";
 		button.style.marginTop = "10px";
 		discussionElements[0].appendChild(button);
 	}
