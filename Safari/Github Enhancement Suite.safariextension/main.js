@@ -16,12 +16,12 @@ function addButton(event) {
 }
 
 function hideDicussionElements(event) {
-	
+
 	var buttonElements = document.getElementsByClassName("toggle-details");
 	var button = buttonElements[0];
 	button.onclick = showDicussionElements;
 	button.innerHTML = "Show details";
-	
+
 	var elements = githubElementClasses();
 	elements.forEach(function(element) {
     	hideElementsByClass(element);
@@ -33,7 +33,7 @@ function showDicussionElements(event) {
 	var button = buttonElements[0];
 	button.onclick = hideDicussionElements;
 	button.innerHTML = "Hide details";
-	
+
 	var elements = githubElementClasses();
 	elements.forEach(function(element) {
     	showElementsByClass(element);
@@ -48,11 +48,11 @@ function githubElementClasses() {
 function hideElementsByClass(className){
     var elements = document.getElementsByClassName(className);
     console.log(elements);
-    
+
     var index = 0;
 	var length = elements.length;
-	
-	for (index ; index < length; index++) { 
+
+	for (index ; index < length; index++) {
     	elements[index].style.display = "none";
     }
 }
@@ -61,8 +61,8 @@ function showElementsByClass(className){
     var elements = document.getElementsByClassName(className);
     var index = 0;
 	var length = elements.length;
-	
-	for (index ; index < length; index++) { 
+
+	for (index ; index < length; index++) {
     	elements[index].style.display = "block";
     }
 }
